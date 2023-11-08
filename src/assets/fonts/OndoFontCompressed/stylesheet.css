@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoBoldItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoBoldItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoExtraLightItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoExtraLightItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoExtraLightRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoExtraLightRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoExtraLightRegular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoLightItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoLightItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoBoldRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoBoldRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoBoldRegular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoLightRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoLightRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoLightRegular.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoMediumItalic.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoMediumItalic.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'FONTSPRING DEMO - Ondo';
+    src: url('FONTSPRINGDEMO-OndoMediumRegular.woff2') format('woff2'),
+        url('FONTSPRINGDEMO-OndoMediumRegular.woff') format('woff'),
+        url('FONTSPRINGDEMO-OndoMediumRegular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
