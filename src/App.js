@@ -1,12 +1,12 @@
 import React from 'react';
-import './app.scss';
-import Navbar from './components/Navbar/Navbar';
+import './app.css';
+import Banner from './sections/Banner.jsx'
 
 function App() {
   return (
     <div>
       <section>
-        <Navbar/>
+        <Banner/>
       </section>
       <section>Game Carousel</section>
       <section>Call to action</section>
