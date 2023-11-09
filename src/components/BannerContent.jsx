@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import PrimaryButton from './PrimaryButton'
+import SecondaryButton from './SecondaryButton'
 
 const BannerContent = () => {
     return (
@@ -10,6 +12,8 @@ const BannerContent = () => {
                     <p>
                     Playing electronic games, whether through consoles, computers, mobile phones or another medium altogether. Gaming is a nuanced term that suggests regular gameplay, possibly as a hobby.
                     </p>
+                    <PrimaryButton name='Buy Now' />
+                    <SecondaryButton name='Play Now' />
                 </div>
             </div>
         </BannerContentStyled>

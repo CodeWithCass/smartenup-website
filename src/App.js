@@ -1,6 +1,7 @@
 import React from 'react';
 import './app.css';
 import Banner from './sections/Banner.jsx'
+import GameCarousel from './sections/GameCarousel.jsx'
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       <section>
         <Banner/>
       </section>
-      <section>Game Carousel</section>
+      <section>
+        <GameCarousel/>
+      </section>
       <section>Call to action</section>
       <section>Filters</section>
       <section>Testimonials Carousel</section>
