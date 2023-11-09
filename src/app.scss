@@ -1,0 +1,34 @@
+@font-face {
+    font-family: Lato;
+    src: url(./assets/fonts/Lato/Lato-Regular.ttf);
+  
+    font-family: OndoFontCompressed;
+    src: url(./assets/fonts/OndoFontCompressed/FONTSPRINGDEMO-OndoBoldRegular.ttf);
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body {
+    background-color: #2D1E6B;
+    color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    height: 100vh;
+    scroll-snap-align: center;
+}
