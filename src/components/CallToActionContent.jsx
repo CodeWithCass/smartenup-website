@@ -7,24 +7,25 @@ import SecondaryButton from './SecondaryButton';
 const CallToActionContent = () => {
   return (
     <CallToActionContentStyled>
-      <div className='container'>
-        <div className='inner-card'>
-          <div className='left-card'>
-            <div className='VrWomen'>
-              <img src={VrWomen} alt='' />
-            </div>
+      <div className='action-card'>
+        <div className='left-card'>
+          <div className='VrWomen'>
+            <img src={VrWomen} alt='' />
           </div>
-          <div className='right-card'>
-            <div className='call-to-action-text'>
-              <h1>Discover the <span className='gradient-text'>Virtual</span> Reality Gaming</h1>
-              <p>
-                A well-designed gaming header often incorporates elements such
-                as game characters, iconic symbols, vibrant colors, and dynamic
-                visuals to convey excitement, adventure, and the immersive
-                nature of gaming.
-              </p>
-              <SecondaryButton name='Play Now' />
-            </div>
+        </div>
+        <div className='right-card'>
+          <div className='call-to-action-text'>
+            <h1>
+              Discover the <span className='gradient-text'>Virtual</span>{' '}
+              Reality Gaming
+            </h1>
+            <p>
+              A well-designed gaming header often incorporates elements such as
+              game characters, iconic symbols, vibrant colors, and dynamic
+              visuals to convey excitement, adventure, and the immersive nature
+              of gaming.
+            </p>
+            <SecondaryButton name='Play Now' />
           </div>
         </div>
       </div>
@@ -34,8 +35,6 @@ const CallToActionContent = () => {
 
 const CallToActionContentStyled = styled.div`
   display: flex;
-  width: 1440px;
-  height: 768px;
   padding-bottom: 0px;
   justify-content: center;
   align-items: center;
@@ -44,24 +43,40 @@ const CallToActionContentStyled = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .inner-card {
-    margin: 300px;
+  .action-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10rem;
     border-radius: 10px;
     border: 1px solid #000;
+    background-image: url(${Rectangle});
+  }
 
-    background: url(${Rectangle}), lightgray 0% 0% / 100px 100px repeat,
-      linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.08) 0%,
-        rgba(217, 217, 217, 0.04) 100%
-      );
+  .left-card {
+    margin-left: auto;
+    margin-right: auto;
 
-    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
-    backdrop-filter: blur(25px);
+    .img {
+      height: 400px;
+    }
+  }
+
+  .right-card {
+    display: relative;
+    position: relative;
+    align-items: center;
+    padding-right: 3rem;
+    padding-top: 3rem;
   }
 
   .gradient-text {
-    background: linear-gradient(90deg, #6542F4 43.84%, #F976FF 68.39%, #B50098 91.97%);background-clip: text;
+    background: linear-gradient(
+      90deg,
+      #6542f4 43.84%,
+      #f976ff 68.39%,
+      #b50098 91.97%
+    );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }

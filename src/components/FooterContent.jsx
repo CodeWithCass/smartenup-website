@@ -56,7 +56,7 @@ const FooterContent = () => {
         </ul>
         <div className='footer-copyright'>
           <p>
-            Copyright 2021. All Rights Reserved by board
+          © Copyright 2023, All Rights Reserved by board
           </p>
         </div>
       </div>
