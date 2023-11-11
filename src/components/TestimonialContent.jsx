@@ -55,21 +55,19 @@ const TestimonialContent = () => {
 };
 
 const TestimonialContentStyled = styled.div`
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   padding-top: 3rem;
 
   @media screen and (max-width: 700px) {
     grid-template-columns: repeat(1, 1fr);
   }
   .testimonial-card {
+    display: inline-flex;
+    width: 50%;
     margin: auto;
     text-align: center;
     border-radius: 10px;
     border: 1px solid #000;
-
     background: url(${Rectangle});
-
     box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
     backdrop-filter: blur(25px);
   }
