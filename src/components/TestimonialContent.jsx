@@ -68,12 +68,7 @@ const TestimonialContentStyled = styled.div`
     border-radius: 10px;
     border: 1px solid #000;
 
-    background: url(${Rectangle}), lightgray 0% 0% / 100px 100px repeat,
-      linear-gradient(
-        180deg,
-        rgba(255, 255, 255, 0.08) 0%,
-        rgba(217, 217, 217, 0.04) 100%
-      );
+    background: url(${Rectangle});
 
     box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
     backdrop-filter: blur(25px);
