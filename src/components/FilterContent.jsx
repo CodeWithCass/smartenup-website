@@ -155,7 +155,7 @@ const FilterContent = () => {
                   </div>
                 </div>
                 <div className='filter-card-button'>
-                <PrimaryButton name='Live Demo' />
+                <PrimaryButton className='filter-button' name='Live Demo' />
                 </div>
               </div>
             </div>
@@ -184,7 +184,7 @@ const FilterContentStyled = styled.div`
 
   img {
     height: auto;
-    max-width: 100%;
+    max-width: 70%;
     vertical-align: middle;
   }
 
@@ -232,6 +232,17 @@ const FilterContentStyled = styled.div`
     flex: 1 1 auto;
     flex-direction: column;
     padding: 1rem;
+  }
+
+  .filter-card-profile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .filter-card-button {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
   }
 `;
 
