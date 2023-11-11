@@ -4,6 +4,7 @@ import Rectangle from '../assets/Images/Testimonial/Rectangle1.svg';
 import WhiteStar from '../assets/Images/Testimonial/white-star.svg';
 import ReviewArlene from '../assets/Images/Testimonial/Review-Arlene.svg';
 import ReviewKathryn from '../assets/Images/Testimonial/Review-Kathryn.svg';
+import VerifiedStar from '../assets/Images/Testimonial/verified.svg';
 
 const TestimonialContent = () => {
   return (
@@ -16,19 +17,24 @@ const TestimonialContent = () => {
             <img src={WhiteStar} alt='' />
             <img src={WhiteStar} alt='' />
             <img src={WhiteStar} alt='' />
-          </div>
-          <div className='card-text'>
-            <span>
-              One of the standout features of this gaming website is its
-              extensive library of game guides and tutorials. It has helped me
-              level up my skills, conquer challenging quests, and discover
-              hidden secrets within games. The guides are comprehensive, easy to
-              follow, and have undoubtedly elevated my gaming performance.
-            </span>
+            <div className='card-text'>
+              <span>
+                One of the standout features of this gaming website is its
+                extensive library of game guides and tutorials. It has helped me
+                level up my skills, conquer challenging quests, and discover
+                hidden secrets within games. The guides are comprehensive, easy
+                to follow, and have undoubtedly elevated my gaming performance.
+              </span>
+            </div>
           </div>
           <div className='card-bottom'>
-            <img src={ReviewArlene} alt='' />
-            <h4>Arlene McCoy</h4>
+            <div className='card-bottom-left'>
+              <img src={ReviewArlene} alt='' />
+              <h4>Arlene McCoy</h4>
+            </div>
+            <div className='card-bottom-right'>
+            <img src={VerifiedStar} alt='' />
+            </div>
           </div>
         </div>
         <div className='testimonial-card'>
@@ -38,15 +44,25 @@ const TestimonialContent = () => {
             <img src={WhiteStar} alt='' />
             <img src={WhiteStar} alt='' />
             <img src={WhiteStar} alt='' />
-          </div>
-          <div className='card-text'>
-            <span>
-            Another aspect that sets this website apart is its vibrant and passionate community. The forum section provides a platform for gamers from all walks of life to connect, share their experiences, and discuss their favorite titles. I've made valuable friendships and found like-minded individuals who share my enthusiasm for gaming.
-            </span>
+            <div className='card-text'>
+              <span>
+                Another aspect that sets this website apart is its vibrant and
+                passionate community. The forum section provides a platform for
+                gamers from all walks of life to connect, share their
+                experiences, and discuss their favorite titles. I've made
+                valuable friendships and found like-minded individuals who share
+                my enthusiasm for gaming.
+              </span>
+            </div>
           </div>
           <div className='card-bottom'>
-            <img src={ReviewKathryn} alt='' />
-            <h4>Kathryn Murphy</h4>
+            <div className='card-bottom-left'>
+              <img src={ReviewKathryn} alt='' />
+              <h4>Kathryn Murphy</h4>
+            </div>
+            <div className='card-bottom-right'>
+              <img src={VerifiedStar} alt='' />
+            </div>
           </div>
         </div>
       </div>
@@ -62,14 +78,12 @@ const TestimonialContentStyled = styled.div`
   }
   .testimonial-card {
     display: inline-flex;
-    width: 50%;
+    width: 45%;
     margin: auto;
     text-align: center;
     border-radius: 10px;
     border: 1px solid #000;
     background: url(${Rectangle});
-    box-shadow: 0px 4px 20px -1px rgba(0, 0, 0, 0);
-    backdrop-filter: blur(25px);
   }
 
   .span {
@@ -90,6 +104,10 @@ const TestimonialContentStyled = styled.div`
     line-height: 110.6%; /* 23.191px */
     letter-spacing: 0.734px;
     text-transform: capitalize;
+  }
+  .card-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 `;
 
